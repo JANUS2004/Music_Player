@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, ul, button {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.music-player {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+audio {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.playlist {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#playPauseBtn, #stopBtn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+#playPauseBtn:hover, #stopBtn:hover {
+    background-color: #2980b9;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-bottom: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#currentTime, #duration {
+    margin-right:30px;
+    border-radius: 10px;
+}
+
